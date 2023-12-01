@@ -6,7 +6,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
+      background-color: #E7C8A0;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -19,35 +19,45 @@
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       overflow: hidden;
+      border: 4px solid #626A39;
+      -webkit-box-shadow: 2px 4px 7px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 4px 7px -2px rgba(0,0,0,0.75);
+box-shadow: 2px 4px 7px -2px rgba(0,0,0,0.75);
     }
 
     #display {
-      font-size: 2em;
+      font-size: 3em;
       padding: 10px;
       text-align: right;
-      border-bottom: 1px solid #ccc;
+      border-bottom: 2px solid #A6AC81;
+      background-color: #FEFAE0;
+      height: 10vh;
     }
 
     #buttons {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
+      background-color: #FAEDCD;
     }
 
     button {
+      background-color: #e9edc9;
       font-size: 1.5em;
       padding: 15px;
-      border: none;
+      border: 2px solid #626A39;
+      border-radius: 10px;
       cursor: pointer;
       outline: none;
       transition: background-color 0.3s;
     }
 
     button:active {
-      background-color: #e6e6e6;
+      background-color: #626A39;
     }
 
+
     button.operator {
-      background-color: #f5a623;
+      background-color:#d4a373;
       color: #fff;
     }
 

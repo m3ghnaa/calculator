@@ -110,12 +110,14 @@ let displayValue = '0';
         if (currentValue === 0) {
           displayValue = 'Error';
         } else {
-          displayValue = storedValue / currentValue.toFixed(4);
+          displayValue = (storedValue / currentValue).toFixed(4);
         }
         break;
       default:
         return;
     }
+
+    
 
     displayValue = displayValue.toString();
     storedValue = null;
