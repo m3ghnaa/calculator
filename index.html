@@ -10,6 +10,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      flex-direction: column;
       height: 100vh;
       margin: 0;
     }
@@ -65,6 +66,7 @@ box-shadow: 2px 4px 7px -2px rgba(0,0,0,0.75);
     button.double {
       grid-column: span 2;
     }
+
   </style>
   <title>Simple Calculator</title>
 </head>
@@ -93,8 +95,12 @@ box-shadow: 2px 4px 7px -2px rgba(0,0,0,0.75);
     <button onclick="appendToDisplay('.')">.</button>
     <button class="operator" onclick="calculateResult()">=</button>
   </div>
+  
 </div>
 
+<footer style = "margin-top: 20px;">
+  <p style="text-align: center;">&copy; Meghna | <a href="https://github.com/m3ghnaa" target="_blank"><img src="github.png" alt="GitHub Icon" style = "margin-bottom: -10px;"></a></p>
+</footer>
 <script src = "script.js">
   
 </script>
